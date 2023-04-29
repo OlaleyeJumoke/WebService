@@ -44,7 +44,7 @@ func (uc userController) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		}
 
 	}
-	//w.Write([]byte("This is the first Go output"))
+	w.Write([]byte("This is the first Go output"))
 }
 
 func (uc *userController) GetAll(w http.ResponseWriter, r *http.Request) {
